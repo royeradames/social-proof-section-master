@@ -31,13 +31,25 @@ $neutral-white: hsl(0, 0%, 100%);
   }
   &__description{
     text-align: center;
-    font-weight: 400;
     color: $neutral-magenta-dark;
   }
 }
 
 .rate{
   grid-column: rate;
+  &__starts{
+    display: flex;
+    justify-content: center;
+    & img {
+      margin-left: .7rem;
+    }
+
+  }
+  &__message{
+    text-align: center;
+    color: $primary-magenta;
+    font-weight: bold;
+  }
 }
 .testimonials{
   grid-column: testimonials;

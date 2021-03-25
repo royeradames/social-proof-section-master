@@ -20,8 +20,8 @@ function App() {
       </header>
 
       <section className="rate">
-        <div className="rate_reviews">
-          <div className="rate_starts">
+        <div className="rate_reviews rate__container">
+          <div className="rate__starts">
             <img src={ratingStart} alt="A rating start" />
             <img src={ratingStart} alt="A rating start" />
             <img src={ratingStart} alt="A rating start" />
@@ -30,8 +30,8 @@ function App() {
           </div>
           <p className="rate__message">Rated 5 Stars in Reviews</p>
         </div>
-        <div className="rate_report_gurux">
-          <div className="rate_starts">
+        <div className="rate_report_gurux rate__container">
+          <div className="rate__starts">
             <img src={ratingStart} alt="A rating start" />
             <img src={ratingStart} alt="A rating start" />
             <img src={ratingStart} alt="A rating start" />
@@ -40,8 +40,8 @@ function App() {
           </div>
           <p className="rate__message">Rated 5 Stars in Report Guru</p>
         </div>
-        <div className="rate_best_tect">
-          <div className="rate_starts">
+        <div className="rate_best_tect rate__container">
+          <div className="rate__starts">
             <img src={ratingStart} alt="A rating start" />
             <img src={ratingStart} alt="A rating start" />
             <img src={ratingStart} alt="A rating start" />
