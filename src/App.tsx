@@ -1,6 +1,9 @@
 import React from "react";
 import "./App.css";
 import ratingStart from "./images/icon-star.svg";
+import colton from "./images/image-colton.jpg";
+import irene from "./images/image-irene.jpg";
+import anne from "./images/image-anne.jpg";
 
 function App() {
   return (
@@ -48,6 +51,11 @@ function App() {
       </section>
 
       <section className="testimonial testimonial__colton-smith">
+        <img
+          src={colton}
+          alt="portrait of Colton Smith"
+          className="testimonial__img"
+        />
         <h2 className="testimonial__name">Colton Smith</h2>
         <p className="testimonial__verify-buyer">Verified Buyer</p>
         <p className="testimonial__message">
@@ -58,6 +66,11 @@ function App() {
       </section>
 
       <section className="testimonial testimonial__irene-roberts">
+        <img
+          src={irene}
+          alt="portrait of Irene Roberts"
+          className="testimonial__img"
+        />
         <h2 className="testimonial__name">Irene Roberts</h2>
         <p className="testimonial__verify-buyer">Verified Buyer</p>
         <p className="testimonial__message">
@@ -68,6 +81,11 @@ function App() {
       </section>
 
       <section className="testimonial testimonial__anne-wallance">
+        <img
+          src={anne}
+          alt="portrait of Anne Wallace"
+          className="testimonial__img"
+        />
         <h2 className="testimonial__name">Anne Wallace</h2>
         <p className="testimonial__verify-buyer">Verified Buyer</p>
         <p className="testimonial__message">
