@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import ratingStart from "./images/icon-star.svg";
 
 function App() {
   return (
@@ -16,12 +17,33 @@ function App() {
       </header>
 
       <section className="rate reviews-rate">
+        <div className="rate_starts">
+          <img src={ratingStart} alt="A rating start" />
+          <img src={ratingStart} alt="A rating start" />
+          <img src={ratingStart} alt="A rating start" />
+          <img src={ratingStart} alt="A rating start" />
+          <img src={ratingStart} alt="A rating start" />
+        </div>
         <p className="rate__message">Rated 5 Stars in Reviews</p>
       </section>
       <section className="report-guru-rate rate">
+        <div className="rate_starts">
+          <img src={ratingStart} alt="A rating start" />
+          <img src={ratingStart} alt="A rating start" />
+          <img src={ratingStart} alt="A rating start" />
+          <img src={ratingStart} alt="A rating start" />
+          <img src={ratingStart} alt="A rating start" />
+        </div>
         <p className="rate__message">Rated 5 Stars in Report Guru</p>
       </section>
       <section className="rate best-tect-rate">
+        <div className="rate_starts">
+          <img src={ratingStart} alt="A rating start" />
+          <img src={ratingStart} alt="A rating start" />
+          <img src={ratingStart} alt="A rating start" />
+          <img src={ratingStart} alt="A rating start" />
+          <img src={ratingStart} alt="A rating start" />
+        </div>
         <p className="rate__message">Rated 5 Stars in BestTech</p>
       </section>
 
