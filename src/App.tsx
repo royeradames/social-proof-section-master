@@ -15,10 +15,14 @@ function App() {
         </p>
       </header>
 
-      <section className="rate">
-        <p className="rate__reviews">Rated 5 Stars in Reviews</p>
-        <p className="rate__report-guru">Rated 5 Stars in Report Guru</p>
-        <p className="rate__best-tech">Rated 5 Stars in BestTech</p>
+      <section className="rate reviews-rate">
+        <p className="rate__message">Rated 5 Stars in Reviews</p>
+      </section>
+      <section className="report-guru-rate rate">
+        <p className="rate__message">Rated 5 Stars in Report Guru</p>
+      </section>
+      <section className="rate best-tect-rate">
+        <p className="rate__message">Rated 5 Stars in BestTech</p>
       </section>
 
       <section className="testimonial testimonial__colton-smith">
