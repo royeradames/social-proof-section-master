@@ -31,6 +31,8 @@ $neutral-white: hsl(0, 0%, 100%);
   }
   &__description{
     text-align: center;
+    font-weight: 400;
+    color: $neutral-magenta-dark;
   }
 }
 
