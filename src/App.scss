@@ -9,9 +9,35 @@ $neutral-magenta-light: hsl(300, 24%, 96%);
 $neutral-white: hsl(0, 0%, 100%);
 
 
-
-body{
+// mobile layout
+#root{
+  font-family: 'Spartan', sans-serif;
+  font-size: 1.5rem;
   display: grid;
-  font-family: 'Spartan', sans-serif;;
+  grid-template-columns: 1fr;
+  grid-template-areas: "header"
+                        "rate"
+                        "testimonials";
+  background-color: $neutral-white;
+}
+
+.header{
+  grid-row: header;
+  &__title{
+    font-weight: 700;
+    color: $primary-magenta;
+    padding: 3rem 2rem 2rem;
+    text-align: center;
+  }
+  &__description{
+    text-align: center;
+  }
+}
+
+.rate{
+  grid-column: rate;
+}
+.testimonials{
+  grid-column: testimonials;
 }
 
