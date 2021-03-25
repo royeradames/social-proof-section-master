@@ -1,0 +1,17 @@
+// font
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+
+// colors
+$primary-magenta: hsl(300, 43%, 22%);
+$primary-pink: hsl(333, 80%, 67%);
+$neutral-magenta-dark: hsl(300, 43%, 22%);
+$neutral-magenta-light: hsl(300, 24%, 96%);
+$neutral-white: hsl(0, 0%, 100%);
+
+
+
+body{
+  display: grid;
+  font-family: 'Spartan', sans-serif;;
+}
+

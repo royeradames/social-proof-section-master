@@ -1,5 +1,5 @@
 import React from "react";
-import "./App.css";
+import "./App.scss";
 import ratingStart from "./images/icon-star.svg";
 import colton from "./images/image-colton.jpg";
 import irene from "./images/image-irene.jpg";
