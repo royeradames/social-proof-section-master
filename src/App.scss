@@ -49,6 +49,12 @@ $neutral-white: hsl(0, 0%, 100%);
     text-align: center;
     color: $primary-magenta;
     font-weight: bold;
+    margin-bottom: 0;
+  }
+  &__container{
+    background-color: $neutral-magenta-light;
+    padding: 1rem 0rem;
+    margin: 1rem 0rem;
   }
 }
 .testimonials{
