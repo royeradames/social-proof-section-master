@@ -10,6 +10,9 @@ $neutral-white: hsl(0, 0%, 100%);
 
 
 // mobile layout
+body{
+  margin: 0;
+}
 #root{
   font-family: 'Spartan', sans-serif;
   font-size: 1.5rem;
@@ -19,7 +22,9 @@ $neutral-white: hsl(0, 0%, 100%);
                         "rate"
                         "testimonial";
   background-color: $neutral-white;
-  padding: 0 1rem;
+  padding: 0 1.8rem;
+  background-image: url("./images/bg-pattern-top-mobile.svg"), url("./images/bg-pattern-bottom-mobile.svg");
+  background-repeat: no-repeat, no-repeat;
 }
 
 .header{
