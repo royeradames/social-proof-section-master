@@ -161,7 +161,7 @@ body{
   grid-column: testimonial;
   display: flex;
   justify-content: space-between;
-
+  max-width: 121rem;
   &__container{
     max-width: 36rem;
     max-height: 25rem;
