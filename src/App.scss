@@ -99,11 +99,11 @@ body{
 @media (min-width: 1440px){
   .page{
     grid-gap: 6rem 6rem;
-    grid-template-columns: minmax(min-content, auto) 1fr;
+    grid-template-columns: minmax(min-content, auto) min-content;
     grid-template-rows: minmax(min-content, auto) 1fr;
     grid-template-areas: "header rate"
                           "testimonial testimonial";
-    padding:  6rem 25rem;
+    padding:  14rem 16rem;
 
     &_background{
       background-image: url("./images/bg-pattern-top-desktop.svg"), url("./images/bg-pattern-bottom-desktop.svg");
