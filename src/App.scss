@@ -17,8 +17,9 @@ $neutral-white: hsl(0, 0%, 100%);
   grid-template-columns: 1fr;
   grid-template-areas: "header"
                         "rate"
-                        "testimonials";
+                        "testimonial";
   background-color: $neutral-white;
+
 }
 
 .header{
@@ -58,7 +59,28 @@ $neutral-white: hsl(0, 0%, 100%);
     margin: 1rem 0rem;
   }
 }
-.testimonials{
-  grid-column: testimonials;
-}
 
+.testimonial{
+  grid-column: testimonial;
+  &__container{
+    background-color: $neutral-magenta-dark;
+    padding: 1rem 0rem;
+    margin: 1rem 0rem;
+    color: $neutral-white;
+    border-radius: 1rem;
+    padding: 2rem;
+    line-height: 1.5;
+
+  }
+  &__header{
+    overflow: auto;
+  }
+  &__img{
+    border-radius: 50%;
+    float: left;
+    margin-right: 2rem;
+  }
+  &__verify-buyer{
+    color: $primary-pink;
+  }
+}

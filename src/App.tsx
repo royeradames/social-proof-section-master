@@ -52,15 +52,17 @@ function App() {
         </div>
       </section>
 
-      <section className="testimonials">
-        <div className="testimonial__colton_smith">
-          <img
-            src={colton}
-            alt="portrait of Colton Smith"
-            className="testimonial__img"
-          />
-          <h2 className="testimonial__name">Colton Smith</h2>
-          <p className="testimonial__verify-buyer">Verified Buyer</p>
+      <section className="testimonial">
+        <div className="testimonial__container testimonial__colton_smith ">
+          <header className="testimonial__header">
+            <img
+              src={colton}
+              alt="portrait of Colton Smith"
+              className="testimonial__img"
+            />
+            <h2 className="testimonial__name ">Colton Smith</h2>
+            <p className="testimonial__verify-buyer">Verified Buyer</p>
+          </header>
           <p className="testimonial__message">
             "We needed the same printed design as the one we had ordered a week
             prior. Not only did they find the original order, but we also
@@ -68,7 +70,7 @@ function App() {
           </p>
         </div>
 
-        <div className="testimonial__irene_roberts">
+        <div className="testimonial__irene_roberts testimonial__container">
           <img
             src={irene}
             alt="portrait of Irene Roberts"
@@ -83,7 +85,7 @@ function App() {
           </p>
         </div>
 
-        <div className="testimonial__anne_wallance">
+        <div className="testimonial__anne_wallance testimonial__container">
           <img
             src={anne}
             alt="portrait of Anne Wallace"
