@@ -131,28 +131,28 @@ body{
   }
 
   .rate{
-    width: max-content;
-    height: max-content;
-
     &__container{
       margin: 1rem 0rem 1.5rem;
-      padding: 1.5rem 5rem 1.5rem 1rem;
+      padding: 1.5rem 5rem 1.5rem 2rem;
       border-radius: 1rem;
 
       display: flex;
       align-items: center;
-
+      max-width: max-content;
     }
     &__message{
       margin: 0;
       margin-left: 2rem;
       padding-left: 2rem;
+      min-width: max-content;
+
     }
     &_report_gurux_indent{
-      margin-left: 5rem;
+      margin-left: 3rem;
     }
     &_best_tect_indent{
-      margin-left: 10rem;
+      margin-left: 6.4rem;
+      padding-right: 9rem;
     }
     
   }
