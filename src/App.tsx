@@ -71,13 +71,15 @@ function App() {
         </div>
 
         <div className="testimonial__irene_roberts testimonial__container">
-          <img
-            src={irene}
-            alt="portrait of Irene Roberts"
-            className="testimonial__img"
-          />
-          <h2 className="testimonial__name">Irene Roberts</h2>
-          <p className="testimonial__verify-buyer">Verified Buyer</p>
+          <header className="testimonial__header">
+            <img
+              src={irene}
+              alt="portrait of Irene Roberts"
+              className="testimonial__img"
+            />
+            <h2 className="testimonial__name">Irene Roberts</h2>
+            <p className="testimonial__verify-buyer">Verified Buyer</p>
+          </header>
           <p className="testimonial__message">
             "Customer service is always excellent and very quick turn around.
             Completely delighted with the simplicity of the purchase and the
@@ -86,13 +88,15 @@ function App() {
         </div>
 
         <div className="testimonial__anne_wallance testimonial__container">
-          <img
-            src={anne}
-            alt="portrait of Anne Wallace"
-            className="testimonial__img"
-          />
-          <h2 className="testimonial__name">Anne Wallace</h2>
-          <p className="testimonial__verify-buyer">Verified Buyer</p>
+          <header className="testimonial__header">
+            <img
+              src={anne}
+              alt="portrait of Anne Wallace"
+              className="testimonial__img"
+            />
+            <h2 className="testimonial__name">Anne Wallace</h2>
+            <p className="testimonial__verify-buyer">Verified Buyer</p>
+          </header>
           <p className="testimonial__message">
             "Put an order with this company and can only praise them for the
             very high standard. Will definitely use them again and recommend
