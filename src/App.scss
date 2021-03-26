@@ -22,11 +22,13 @@ body{
   grid-template-areas: "header"
                         "rate"
                         "testimonial";
-  background-color: $neutral-white;
   padding: 0 1.8rem;
-  background-image: url("./images/bg-pattern-top-mobile.svg"), url("./images/bg-pattern-bottom-mobile.svg");
-  background-repeat: no-repeat, no-repeat;
-  background-position: left top, left bottom;
+  &_background{
+    background-color: $neutral-white;
+    background-image: url("./images/bg-pattern-top-mobile.svg"), url("./images/bg-pattern-bottom-mobile.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: left top, left bottom;
+  }
 }
 
 .header{
@@ -95,5 +97,60 @@ body{
 
 // desktop 
 @media (min-width: 1440px){
-  
+  .page{
+    grid-gap: 6rem 6rem;
+    grid-template-columns: minmax(min-content, auto) 1fr;
+    grid-template-rows: minmax(min-content, auto) 1fr;
+    grid-template-areas: "header rate"
+                          "testimonial testimonial";
+    padding:  6rem 25rem;
+
+    &_background{
+      background-image: url("./images/bg-pattern-top-desktop.svg"), url("./images/bg-pattern-bottom-desktop.svg");
+      background-repeat: no-repeat, no-repeat;
+      background-position: left top, left bottom;
+    }
+  }
+
+  .header{
+    &__title{
+      text-align: left;
+      max-width: 30rem;
+      margin: 0;
+      padding: 0;
+
+    }
+    &__description{
+      text-align: left;
+      color: $neutral-magenta-dark;
+      line-height: 1.5;
+      margin-bottom: 0;
+      max-width: 45rem;
+
+    }
+  }
+
+  .rate{
+    width: max-content;
+    height: max-content;;
+    &__starts{
+      display: flex;
+      justify-content: center;
+      & img {
+        margin-left: .7rem;
+      }
+
+    }
+    &__message{
+      text-align: center;
+      color: $primary-magenta;
+      font-weight: bold;
+      margin-bottom: 0;
+    }
+    &__container{
+      background-color: $neutral-magenta-light;
+      padding: 1rem 0rem;
+      margin: 1rem 0rem;
+    }
+  }
 }
