@@ -135,7 +135,7 @@ body{
     height: max-content;
 
     &__container{
-      margin: 1rem 0rem;
+      margin: 1rem 0rem 1.5rem;
       padding: 1.5rem 5rem 1.5rem 1rem;
       border-radius: 1rem;
 
@@ -147,7 +147,12 @@ body{
       margin: 0;
       margin-left: 2rem;
       padding-left: 2rem;
-
+    }
+    &_report_gurux_indent{
+      margin-left: 5rem;
+    }
+    &_best_tect_indent{
+      margin-left: 10rem;
     }
     
   }
