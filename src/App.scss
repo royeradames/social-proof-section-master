@@ -13,7 +13,7 @@ $neutral-white: hsl(0, 0%, 100%);
 body{
   margin: 0;
 }
-#root{
+.page{
   font-family: 'Spartan', sans-serif;
   font-size: 1.5rem;
   display: grid;
@@ -92,4 +92,9 @@ body{
   &__verify-buyer{
     color: $primary-pink;
   }
+}
+
+// desktop 
+@media (min-width: 1440px){
+  
 }
