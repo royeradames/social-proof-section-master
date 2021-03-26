@@ -70,7 +70,7 @@ function App() {
           </p>
         </div>
 
-        <div className="testimonial__irene_roberts testimonial__container">
+        <div className="testimonial__irene-roberts testimonial__container">
           <header className="testimonial__header">
             <img
               src={irene}
@@ -87,7 +87,7 @@ function App() {
           </p>
         </div>
 
-        <div className="testimonial__anne_wallance testimonial__container">
+        <div className="testimonial__anne-wallance testimonial__container">
           <header className="testimonial__header">
             <img
               src={anne}

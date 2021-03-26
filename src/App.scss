@@ -103,12 +103,12 @@ body{
     grid-template-rows: minmax(min-content, auto) 1fr;
     grid-template-areas: "header rate"
                           "testimonial testimonial";
-    padding:  14rem 16rem;
+    padding:  14rem 16rem 0;
 
     &_background{
       background-image: url("./images/bg-pattern-top-desktop.svg"), url("./images/bg-pattern-bottom-desktop.svg");
       background-repeat: no-repeat, no-repeat;
-      background-position: left top, left bottom;
+      background-position: left -5rem top, left 43rem bottom;
     }
   }
 
@@ -156,4 +156,24 @@ body{
     }
     
   }
+
+  .testimonial{
+  grid-column: testimonial;
+  display: flex;
+  justify-content: space-between;
+
+  &__container{
+    max-width: 36rem;
+    max-height: 25rem;
+  }
+  &__header{
+    overflow: auto;
+  }
+  &__irene-roberts{
+    margin-top: 3rem;
+  }
+  &__anne-wallance{
+    margin-top: 6rem;
+  }
+}
 }
