@@ -17,6 +17,7 @@ body{
   font-family: 'Spartan', sans-serif;
   font-size: 1.5rem;
   display: grid;
+  grid-row-gap: 2rem;
   grid-template-columns: 1fr;
   grid-template-areas: "header"
                         "rate"
@@ -30,7 +31,6 @@ body{
 
 .header{
   grid-row: header;
-  margin-bottom: 2rem;
   &__title{
     font-weight: 700;
     color: $primary-magenta;
@@ -47,7 +47,6 @@ body{
 
 .rate{
   grid-column: rate;
-  margin-bottom: 2rem;
   &__starts{
     display: flex;
     justify-content: center;
