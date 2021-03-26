@@ -99,7 +99,7 @@ body{
 @media (min-width: 1440px){
   .page{
     grid-gap: 6rem 6rem;
-    grid-template-columns: minmax(min-content, auto) min-content;
+    grid-template-columns: minmax(min-content, auto) 1fr;
     grid-template-rows: minmax(min-content, auto) 1fr;
     grid-template-areas: "header rate"
                           "testimonial testimonial";
@@ -143,19 +143,7 @@ body{
       align-items: center;
 
     }
-    &__starts{
-      display: flex;
-      justify-content: center;
-      height: 1.6rem;
-      & img {
-        margin-left: .7rem;
-      }
-
-    }
     &__message{
-      text-align: center;
-      color: $primary-magenta;
-      font-weight: bold;
       margin: 0;
       margin-left: 2rem;
       padding-left: 2rem;
